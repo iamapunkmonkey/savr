@@ -10,6 +10,6 @@ namespace savr.Models
         public string Url { get; set; }
         public string Title { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
-        public bool IsDeleted { get; set; } = false;
+        public bool IsDeleted { get; set; }
     }
 }
